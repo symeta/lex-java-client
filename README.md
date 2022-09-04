@@ -30,7 +30,7 @@ public class main{
     AmazonLexRuntime client = AmazonLexRuntimeClientBuilder.standard().withRegion(Regions.US_EAST_1).build();
     PostTextRequest textRequest = new PostTextRequest();
     textRequest.setBotName("BookTrip");
-    textRequest.setBotAlias("pre-prod");
+    textRequest.setBotAlias("preProd");
     textRequest.setUserId("testuser");
     textRequest.setInputText("");
     PostTextResut textResut = client.postText(textRequest);
