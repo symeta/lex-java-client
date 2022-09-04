@@ -9,8 +9,8 @@ add libraries through maven, key word: aws-java-sdk-lex
 create an IAM user (programmatic access) @ IAM console;
 
 grante the IAM user with the following permissions:
--AmazonLexReadOnly
--AmazonLexRunBotsOnly
+* -AmazonLexReadOnly
+* -AmazonLexRunBotsOnly
 
 configure AK, SK, region @ Java Client Local machine through aws configure command
 
